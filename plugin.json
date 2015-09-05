@@ -1,0 +1,23 @@
+{
+  "id": "nodebb-plugin-mt5225_sso_wx_web",
+  "name": "mt5225_sso_wx_web",
+  "description": "mt5225_sso_wx_web",
+  "url": "https://github.com/mt5225/nodebb-plugin-mt5225_sso_wx_web",
+  "library": "./index.js",
+  "templates": "./templates",
+  "hooks": [
+    {
+      "hook": "action:plugin.activate",
+      "method": "pluginActivation"
+    },
+    {
+      "hook": "filter:admin.header.build",
+      "method": "addAdminNavigation"
+    },
+    {
+      "hook": "action:app.load",
+      "method": "init"
+    }
+  ],
+  "minver": "0.4.0"
+}

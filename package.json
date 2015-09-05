@@ -1,0 +1,17 @@
+{
+  "name": "nodebb-plugin-mt5225_sso_wx_web",
+  "version": "0.0.1-1",
+  "description": "mt5225_sso_wx_web",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mt5225/nodebb-plugin-mt5225_sso_wx_web"
+  },
+  "keywords": [
+    "nodebb"
+  ],
+  "author": {
+    "name": "Jerry Jiang"
+  },
+  "license": "MIT"
+}
