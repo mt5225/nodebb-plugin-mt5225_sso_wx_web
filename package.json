@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-mt5225_sso_wx_web",
-  "version": "0.0.1-17",
+  "version": "0.0.1-18",
   "description": "mt5225_sso_wx_web",
   "main": "index.js",
   "repository": {
