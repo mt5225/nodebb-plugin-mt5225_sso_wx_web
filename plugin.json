@@ -6,18 +6,7 @@
   "library": "./index.js",
   "templates": "./templates",
   "hooks": [
-    {
-      "hook": "action:plugin.activate",
-      "method": "pluginActivation"
-    },
-    {
-      "hook": "filter:admin.header.build",
-      "method": "addAdminNavigation"
-    },
-    {
-      "hook": "action:app.load",
-      "method": "init"
-    }
-  ],
-  "minver": "0.4.0"
+     { "hook": "filter:user.delete", "method": "deleteUserData" },
+     { "hook": "filter:auth.init", "method": "getStrategy" }
+  ]
 }
